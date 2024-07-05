@@ -1,0 +1,41 @@
+.project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px 10px;
+  background: rgb(31, 31, 31);
+  color: white;
+  text-align: center;
+}
+
+.project-section h1 {
+  font-weight: 550;
+}
+
+.card-ticker {
+  /* padding: 10px 0; */
+  /* width: 100%; */
+  height: max-content;
+  padding: 20px 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.card-ticker::-webkit-scrollbar {
+  height: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.card-ticker::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+
+.card-ticker:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(65, 65, 65);
+}
+
+.ticker {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,58 @@
+.hero {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(52, 52, 52, 0.8701681356136204) 50%,
+      rgba(237, 167, 26, 0.668) 100%
+    );
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+  }
+  
+  .hero p {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+  
+  .hero-btn {
+    display: flex;
+    width: 20%;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .projects-btn {
+    border: none;
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    width: max-content;
+    text-wrap: nowrap;
+  }
+  
+  .about-btn {
+    border-radius: 5px;
+    font-size: 20px;
+    text-wrap: nowrap;
+  
+    border: none;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    width: max-content;
+  }
+  
+  .hero-btn button:hover {
+    cursor: pointer;
+  }

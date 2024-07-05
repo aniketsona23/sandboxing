@@ -1,0 +1,68 @@
+.footer main {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer .socials h1 {
+  height: max-content;
+}
+
+.footer ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer p {
+  text-align: center;
+  font-size: x-small;
+  padding: 2px 0;
+}
+
+.icon{
+  border-radius: 50%;
+}
+
+#fb-icon {
+  font-size: 30px;
+  padding: 5px;
+  transition: 0.5s all;
+}
+
+#insta-icon {
+  font-size: 30px;
+  padding: 5px;
+  transition: 0.5s all;
+}
+
+#mail-icon {
+  font-size: 30px;
+  padding: 5px;
+  transition: 0.5s all;
+}
+
+#LI-icon {
+  font-size: 30px;
+  padding: 5px;
+  transition: 0.5s all;
+}
+
+
+.icon:hover {
+  background-color: rgb(59, 59, 59);
+  color: gold;
+}
+
+.address p {
+  font-size: large;
+  text-align: left;
+}
+
+.footer .copyright {
+  border-top: 2px solid rgba(0, 0, 0, 0.671);
+}

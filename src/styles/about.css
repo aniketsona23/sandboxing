@@ -1,0 +1,18 @@
+.about-section {
+  padding: 60px 150px;
+}
+
+.about-section .about-cards {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.about-section .about-card {
+  padding: 40px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.section-header span {
+    color: gold;
+  }

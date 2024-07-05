@@ -1,0 +1,57 @@
+.project-card {
+  border-radius: 10px;
+  height: 320px;
+  width: 330px;
+  background-color: antiquewhite;
+  cursor: pointer;
+  user-select: none;
+  /* margin: 10px; */
+}
+
+.project-card img {
+  height: 320px;
+  width: 330px;
+  border-radius: 10px;
+}
+
+.project-card .card-overlay {
+  overflow: hidden;
+  position: sticky;
+  bottom: 102%;
+  background-color: rgba(0, 0, 0, 0);
+  height: 320px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.project-card:hover .card-overlay {
+  background-color: rgba(255, 255, 255, 0.797);
+}
+
+.project-card .card-overlay h2 {
+  position: sticky;
+  top: 30px;
+  visibility: hidden;
+  color: rgba(255, 255, 255, 0);
+  font-size: 29px;
+  font-weight: 600;
+  user-select: none;
+}
+
+.project-card .card-overlay p {
+  color: rgba(255, 255, 255, 0);
+  position: sticky;
+  visibility: hidden;
+  top: 90px;
+  text-align: left;
+  padding: 25px;
+  font-weight: 500;
+  user-select: none;
+}
+
+.project-card:hover h2,
+.project-card:hover p {
+  color: black;
+  visibility: visible;
+}
