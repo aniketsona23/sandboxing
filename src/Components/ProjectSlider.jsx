@@ -1,4 +1,4 @@
-import Card from "./ProjectCard";
+import Card from "./ProjectSliderCard";
 import { Projects } from "../utils/projects";
 import "../styles/projects.css"
 

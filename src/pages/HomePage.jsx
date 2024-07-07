@@ -4,12 +4,12 @@ import About from "../Components/About"
 
 function HomePage() {
   return (
-    <>
+    <section className="home-page">
       <Hero />
       <About />
       <hr className="divider" />
       <Projects />
-    </>
+    </section>
   );
 }
 
