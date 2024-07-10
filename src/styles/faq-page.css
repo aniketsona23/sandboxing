@@ -1,0 +1,39 @@
+
+.header-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.614);
+    height: 100%;
+    width: 100%;
+    gap: 40px;
+    padding: 50px;
+}
+
+header{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    background-image: url("../Assets/Bdome-2-1.jpg");
+    width: 100%;
+}
+
+header h1{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+header p{
+    width: 50%;
+    text-align: center;
+}
+
+header img{
+    position: relative;
+    z-index: -1;
+    top: -50px;
+    
+}

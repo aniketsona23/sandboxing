@@ -1,6 +1,7 @@
 import Hero from "../Components/Hero"
 import Projects from "../Components/ProjectSlider"
 import About from "../Components/About"
+import gsap from "gsap"
 
 function HomePage() {
   return (

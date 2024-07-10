@@ -1,5 +1,5 @@
 .hero {
-    height: 500px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,11 +9,17 @@
     background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 1) 0%,
-      rgba(52, 52, 52, 0.8701681356136204) 50%,
+      #343434de 50%,
       rgba(237, 167, 26, 0.668) 100%
     );
   }
   
+  .hero video{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+  }
   .hero h1 {
     font-size: 60px;
   }
