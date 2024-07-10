@@ -6,7 +6,7 @@ import "../styles/members-page.css";
 export default function MembersPage() {
   return (
     <section className="members-page">
-      <h1>Members</h1>
+      <h1>Student Community</h1>
       <div className="members">
         {student.map((element, i) => {
           return (

@@ -15,20 +15,21 @@ function NavBar() {
         <div className="nav-links">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={()=>{changeState("closed")}}>Home</Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects" onClick={()=>{changeState("closed")}}>Projects</Link>
             </li>
             <li>
-              <Link to="/members">Members</Link>
+              <Link to="/members" onClick={()=>{changeState("closed")}}>Members</Link>
             </li>
             <li>
-              <Link to="/faq">FAQ</Link>
+              <Link to="/Facilities" onClick={()=>{changeState("closed")}}>Facilities</Link>
             </li>
             <li>
-              <Link to="/Facilities">Facilities</Link>
+              <Link to="/faq" onClick={()=>{changeState("closed")}}>FAQs</Link>
             </li>
+            <button className="access-form-btn">Apply for Access</button>
           </ul>
         </div>
       </div>

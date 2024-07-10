@@ -6,7 +6,8 @@
 }
 
 .members-page h1 {
-  font-size: 80px;
+  font-size: 70px;
+  color: white;
 }
 
 .members {
@@ -59,7 +60,7 @@
   z-index: 2;
   height: 100%;
   width: 100%;
-  bottom: 101%;
+  bottom: 101.2%;
   border-radius: 10px;
   color: rgba(255, 255, 255, 0);
   background-color: rgba(0, 0, 0, 0);
@@ -87,6 +88,14 @@
 
 }
 
+.member-card:hover .icon{
+  color: #ffffff;
+}
+
+.member-card .icon:hover{
+  color: gold;
+}
+
 #li-icon {
   font-size: 30px;
   padding: 5px;
@@ -94,6 +103,7 @@
 
 }
 
-.icon{
-    border-radius: 50%;
+
+.member-card .icon{
+    color: rgba(240, 248, 255, 0);
 }
