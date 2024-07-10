@@ -13,9 +13,9 @@
 }
 
 .footer ul {
+  align-items: center;
   display: flex;
   gap: 20px;
-  list-style: none;
   text-decoration: none;
 }
 
@@ -27,29 +27,30 @@
 
 .icon{
   border-radius: 50%;
+  color: white;
 }
 
 #fb-icon {
-  font-size: 30px;
+  font-size: 35px;
   padding: 5px;
   transition: 0.5s all;
 }
 
 #insta-icon {
-  font-size: 30px;
-  padding: 5px;
+  font-size: 35px;
+  padding: 8px;
   transition: 0.5s all;
 }
 
 #mail-icon {
-  font-size: 30px;
-  padding: 5px;
+  font-size: 35px;
+  padding: 8px;
   transition: 0.5s all;
 }
 
 #LI-icon {
-  font-size: 30px;
-  padding: 5px;
+  font-size: 35px;
+  padding: 8px;
   transition: 0.5s all;
 }
 

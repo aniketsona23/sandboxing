@@ -80,7 +80,7 @@
   color: white;
 }
 
-#mail-icon {
+.members-page #mail-icon {
   font-size: 30px;
   padding: 5px;
   transition: all 0.5s;
