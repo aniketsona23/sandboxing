@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  padding: 70px 60px;
 }
 
 .members-page h1 {
   font-size: 70px;
+  margin-left: 50px;
   color: white;
+  align-self: flex-start;
 }
 
 .members {
@@ -15,7 +17,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 50px;
+  margin-bottom: 30px;
 }
 
 .member-card {

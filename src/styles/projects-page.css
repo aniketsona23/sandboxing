@@ -1,8 +1,19 @@
-.project-page{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+.projects-page {
+  display: flex;
+  flex-direction: column;
+  padding: 90px 30px;
+  gap: 50px;
+}
 
-    padding: 30px;
+.projects-page h1 {
+  font-size: 60px;
+  color: white;
+  margin-left: 40px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }

@@ -1,9 +1,9 @@
-import React from "react";
+import React,{memo} from "react";
 import { student, faculty } from "../utils/member";
 import MembersCard from "../Components/MembersCard";
 import "../styles/members-page.css";
 
-export default function MembersPage() {
+const MembersPage = memo(()=> {
   return (
     <section className="members-page">
       <h1>Student Community</h1>
@@ -29,4 +29,6 @@ export default function MembersPage() {
       </div>
     </section>
   );
-}
+})
+
+export default MembersPage;
