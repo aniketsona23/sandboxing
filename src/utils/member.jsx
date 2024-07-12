@@ -1,24 +1,20 @@
-import vimarsh from "../Assets/students/vimarsh.jpg"
-import pranav from "../Assets/students/pranav.jpg"
-import smrithi from '../Assets/students/smrithi.jpeg';
-import vishnu from '../Assets/students/vishnu.jpeg';
-import aashishkanted from '../Assets/students/aashishkanted.jpg'
-import arjunputhli from '../Assets/students/arjunputhli.jpg'
-import ritwik from '../Assets/students/ritwik.jpg'
-import nitya from '../Assets/students/nitya.jpg'
-
-import arya from '../Assets/students/arya.jpeg'
-import raghav from '../Assets/students/raghav.jpeg'
-import rajdeep from "../Assets/students/rajdeep.jpeg"
-import samar from '../Assets/students/samar.jpeg'
-import vishnuganti from '../Assets/students/vishnuganti1.jpeg'
-import adarsh from '../Assets/students/adarsh.jpeg'
-import ajinkya from "../Assets/students/ajinkya.jpeg"
-import om from "../Assets/students/om.jpeg"
-
-
+import vimarsh from "../Assets/studentsss/vimarsh.webp"
+import pranav from "../Assets/studentsss/pranav.webp"
+import smrithi from '../Assets/studentsss/smrithi.webp';
+import vishnu from '../Assets/studentsss/vishnu.webp';
+import aashishkanted from '../Assets/studentsss/aashishkanted.webp'
+import arjunputhli from '../Assets/studentsss/arjunputhli.webp'
+import ritwik from '../Assets/studentsss/ritwik.webp'
+import nitya from '../Assets/studentsss/nitya.webp'
+import arya from '../Assets/studentsss/arya.webp'
+import raghav from '../Assets/studentsss/raghav.webp'
+import rajdeep from "../Assets/studentsss/rajdeep.webp"
+import samar from '../Assets/studentsss/samar.webp'
+import vishnuganti from '../Assets/studentsss/vishnuganti1.webp'
+import adarsh from '../Assets/studentsss/adarsh.webp'
+import ajinkya from "../Assets/studentsss/ajinkya.webp"
+import om from "../Assets/studentsss/om.webp"
 import aniket from "../Assets/students/aniket.webp"
-
 import varinder from '../Assets/faculty/varinder1.jpeg';
 
 let student = [
