@@ -7,7 +7,7 @@
     right: 55px;
     width: 30px;
     height: 30px;
-    display: flex;
+    align-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -26,16 +26,14 @@
     background-color: gold;
     border-radius: 5px;
     transition: all 0.5s;
+    margin:5px auto;
     /* transition: background-color 0.5s ; */
 }
 
 .menu-icon-open {
     top: 20px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
+    align-content: center;
     position: absolute;
     right: 55px;
     width: 30px;
@@ -48,7 +46,8 @@
     border-radius: 50%;
 }
 
-.menu-icon-open .line1, .line2{
+.menu-icon-open .line{
+    margin: -2px auto ;
     width: 25px;
     height: 3px;
     background-color: gold;
@@ -64,4 +63,15 @@
 
 .menu-icon-open .line2{
     transform: rotate(45deg);
+}
+
+.menu-icon-closed:hover .line{
+    width: 14px;
+}
+
+.menu-icon-closed:hover .line1{
+    transform: rotate(-45deg);
+}
+.menu-icon-closed:hover .line2{
+    transform: rotate(+45deg);
 }

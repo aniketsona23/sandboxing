@@ -13,8 +13,8 @@ export default function MenuIcon({state,changeState}) {
 
   return (
     <div className={`menu-icon-${state}`} onClick={handler}>
-      <div className="line1"></div>
-      <div className="line2"></div>
+      <div className="line1 line"></div>
+      <div className="line2 line"></div>
     </div>
   );
 }
