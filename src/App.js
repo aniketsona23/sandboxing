@@ -1,7 +1,5 @@
 import "./index.css";
 import React, { Suspense, lazy } from "react";
-// import Card from './Components/ProjectCard';
-// import ProjectsPage from "./pages/ProjectsPage";
 import HomePage from "./pages/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./Components/Navbar";
@@ -9,6 +7,7 @@ import Footer from "./Components/Footer";
 import MembersPage from "./pages/MembersPage";
 import FacilitiesPage from "./pages/FacilitiesPage";
 import FaqPage from "./pages/FaqPage";
+import ProposalPage from "./pages/ProposalPage";
 
 const ProjectsPage = lazy(() => import("./pages/ProjectsPage"));
 function App() {
@@ -22,6 +21,7 @@ function App() {
           <Route exact path="/members" element={<MembersPage />} />
           <Route exact path="/faq" element={<FaqPage />} />
           <Route exact path="/facilities" element={<FacilitiesPage />} />
+          <Route exact path="/proposal" element={<ProposalPage />} />
         </Routes>
         <hr className="footer-divider" />
         <Footer />

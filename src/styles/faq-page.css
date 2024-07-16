@@ -1,4 +1,4 @@
-.header-text {
+.faq-page .header-text {
   color: white;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   padding: 50px;
 }
 
-header {
+.faq-page header {
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,18 +20,18 @@ header {
   width: 100%;
 }
 
-header h1 {
+.faq-page header h1 {
   font-size: 70px;
   font-weight: 400;
 }
 
-header p {
+.faq-page header p {
   font-size: 20px;
   width: 50%;
   text-align: center;
 }
 
-header img {
+.faq-page header img {
   position: relative;
   z-index: -1;
   top: -50px;

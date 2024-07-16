@@ -14,7 +14,7 @@ import vishnuganti from '../Assets/studentsss/vishnuganti1.webp'
 import adarsh from '../Assets/studentsss/adarsh.webp'
 import ajinkya from "../Assets/studentsss/ajinkya.webp"
 import om from "../Assets/studentsss/om.webp"
-import aniket from "../Assets/students/aniket.webp"
+import aniket from "../Assets/students/aniket.jpeg"
 import varinder from '../Assets/faculty/varinder1.jpeg';
 
 let student = [

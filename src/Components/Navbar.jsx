@@ -1,5 +1,5 @@
 import sandboxLogo from "../Assets/sandbox-logo.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import "../styles/navbar.css";
 import MenuIcon from "./menuIcon";
@@ -7,6 +7,7 @@ import { useState } from "react";
 
 function NavBar() {
   const [menuState, changeState] = useState("closed");
+  const navigate = useNavigate()
 
   return (
     <nav className="nav-bar">
@@ -30,7 +31,7 @@ function NavBar() {
             <li>
               <Link to="/faq" onClick={()=>{changeState("closed")}}>FAQs</Link>
             </li>
-            <button className="access-form-btn">Apply for Access</button>
+            <button className="access-form-btn" onClick={()=>{navigate("/proposal")}}>Apply for Access</button>
           </ul>
         </div>
       </div>
