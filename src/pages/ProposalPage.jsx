@@ -20,8 +20,7 @@ function ProposalPage() {
                 Projects can borrow parts from sandbox but must return after
                 use.
               </li>
-              <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
-              <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
+              <li>Only Project Lead will be given Fingerprint Access.</li>
             </ul>
           </div>
           <div className="full">
@@ -32,7 +31,6 @@ function ProposalPage() {
               <li>
                 Projects will be alloted Worksession slots to work in the Lab.
               </li>
-              <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
             </ul>
           </div>
           <div className="access-btns">

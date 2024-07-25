@@ -2,7 +2,7 @@ import "../styles/about.css"
 
 function About() {
   return (
-    <div className="about-section">
+    <div id="about-section">
       <h1 className="section-header">
         How Does <span>SANDBOX</span> Helps You?
       </h1>

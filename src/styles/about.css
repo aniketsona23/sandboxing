@@ -1,16 +1,16 @@
-.about-section {
+#about-section {
   padding: 60px 150px;
 }
 
 
 
-.about-section .about-cards {
+#about-section .about-cards {
   display: flex;
   margin-top: 50px;
   gap: 40px;
 }
 
-.about-section .about-card {
+#about-section .about-card {
   display: flex;
   flex-direction: column;
   gap: 20px

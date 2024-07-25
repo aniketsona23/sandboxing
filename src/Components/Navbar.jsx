@@ -9,6 +9,11 @@ function NavBar() {
   const [menuState, changeState] = useState("closed");
   const navigate = useNavigate()
 
+  const accessHandler = ()=>{
+    navigate("/proposal");
+    changeState("closed")
+  }
+
   return (
     <nav className="nav-bar">
       <Link to="/"><img src={sandboxLogo} alt="" /></Link>
@@ -31,7 +36,7 @@ function NavBar() {
             <li>
               <Link to="/faq" onClick={()=>{changeState("closed")}}>FAQs</Link>
             </li>
-            <button className="access-form-btn" onClick={()=>{navigate("/proposal")}}>Apply for Access</button>
+            <button className="access-form-btn" onClick={accessHandler}>Apply for Access</button>
           </ul>
         </div>
       </div>
