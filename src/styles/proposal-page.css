@@ -1,3 +1,6 @@
+.proposal-page{
+  font-family: "Poppins";
+}
 .proposal-page header {
   background-image: url("../Assets/fingerprint.jpg");
   background-repeat: no-repeat;
@@ -34,8 +37,9 @@
 }
 
 .proposal-page main {
-  padding: 60px 0px;
+  padding: 60px 20px;
   display: flex;
+  gap: 30px;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -45,11 +49,14 @@
   flex-direction: column;
   background-color: rgb(35, 35, 35);
   gap: 20px;
-  padding: 50px 50px;
+  padding: 50px 30px;
   border-radius: 2%;
   height: 500px;
 }
-.proposal-page .one-req {
+.proposal-page .one-req p {
+  font-size: 25px;
+  font-family: "Poppins";
+
 }
 
 .proposal-page .access-details {

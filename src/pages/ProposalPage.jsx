@@ -44,10 +44,8 @@ function ProposalPage() {
         <div className="one-req access">
           <h2>One-Off Requests</h2>
           <ul className="access-details">
-            <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
-            <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
-            <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
-            <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
+            <p>Couldn't get Access for Sandbox ? Or Just want one-time use to our facilities like 3D- Printer , Laser-Cutter etc?<br /><br />
+            You can apply through <b>One-Off Request Form</b> to submit request. If the committee approves, you can use the facility for one time work.</p>
           </ul>
           <div className="access-btns">
             <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc7nQaLoM3pGOl6SoSVX5hYQ4kfIaqnyj9LJfNTq4YivqpEdw/viewform">

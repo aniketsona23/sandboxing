@@ -30,8 +30,7 @@
 }
 
 .menu-open .nav-links {
-  background-color: rgba(0, 0, 0, 0.486);
-  /* background-color: white; */
+  background-color: rgba(0, 0, 0, 0.608);
   border: 2px solid white;
   height: 300px;
   width: 250px;
@@ -107,7 +106,8 @@ li {
   font-size: medium;
   padding: 10px 10px;
   font-family: "Poppins";
-  background-color: rgba(0, 0, 0, 0.505);
+  background-color: rgba(0, 0, 0, 0.599);
+  filter: blur(0.5);
   border: 2px solid white;
   color: white;
   margin-top: 10px;
