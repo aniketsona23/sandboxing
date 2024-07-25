@@ -1,12 +1,17 @@
-import React,{memo} from "react";
+import React, { memo } from "react";
 import { student, faculty } from "../utils/member";
 import MembersCard from "../Components/MembersCard";
 import "../styles/members-page.css";
 
-const MembersPage = memo(()=> {
+const MembersPage = memo(() => {
   return (
     <section className="members-page">
-      <h1>Student Community</h1>
+      <header>
+        <div className="header-text">
+          <h1>Sandbox Community</h1>
+          {/* <p>A Plethora of Projects are being developed at Sandbox!</p> */}
+        </div>
+      </header>
       <div className="members">
         {student.map((element, i) => {
           return (
@@ -22,13 +27,19 @@ const MembersPage = memo(()=> {
       </div>
       <h1>Faculty</h1>
       <div className="faculty">
-        {faculty.map((element,i)=>{
-          return(
-            <MembersCard key={i} name={element.name} image={element.image} mail={element.email}  />)
+        {faculty.map((element, i) => {
+          return (
+            <MembersCard
+              key={i}
+              name={element.name}
+              image={element.image}
+              mail={element.email}
+            />
+          );
         })}
       </div>
     </section>
   );
-})
+});
 
 export default MembersPage;

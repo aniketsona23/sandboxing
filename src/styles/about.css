@@ -11,6 +11,10 @@
 }
 
 .about-section .about-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+  ;
   padding: 40px;
   background-color: aliceblue;
   border-radius: 10px;

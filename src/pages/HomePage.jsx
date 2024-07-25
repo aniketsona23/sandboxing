@@ -1,7 +1,7 @@
-import Hero from "../Components/Hero"
-import Projects from "../Components/ProjectSlider"
-import About from "../Components/About"
-import SandboxVid from "../Components/SandboxVid"
+import Hero from "../Components/Hero";
+import Projects from "../Components/ProjectSlider";
+import About from "../Components/About";
+import SandboxVid from "../Components/SandboxVid";
 
 function HomePage() {
   return (

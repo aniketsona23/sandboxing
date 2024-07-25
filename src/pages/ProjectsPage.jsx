@@ -9,6 +9,7 @@ const ProjectsPage = memo(() => {
       <header>
         <div className="header-text">
           <h1>Projects</h1>
+          <p>A Plethora of Projects are being developed at Sandbox!</p>
         </div>
       </header>
       <div className="projects">

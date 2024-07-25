@@ -8,7 +8,7 @@ function About() {
       </h1>
       <div className="about-cards">
         <div className="about-card">
-          <h1 className="about-header">About1</h1>
+          <h1 className="about-header">Industry Level Facilities</h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
             corrupti labore minus, beatae debitis facilis adipisci, quidem
@@ -16,7 +16,7 @@ function About() {
           </p>
         </div>
         <div className="about-card">
-          <h1 className="about-header">About2</h1>
+          <h1 className="about-header">24x7 Facilities</h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
             corrupti labore minus, beatae debitis facilis adipisci, quidem
@@ -24,7 +24,7 @@ function About() {
           </p>
         </div>
         <div className="about-card">
-          <h1 className="about-header">About3</h1>
+          <h1 className="about-header">Order Components</h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
             corrupti labore minus, beatae debitis facilis adipisci, quidem

@@ -15,8 +15,11 @@ function ProposalPage() {
           <div className="partial">
             <h3>Partial Access</h3>
             <ul className="access-details">
-              <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
-              <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
+              <li>Projects cannot have WorkSessions inside Sandbox Lab.</li>
+              <li>
+                Projects can borrow parts from sandbox but must return after
+                use.
+              </li>
               <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
               <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
             </ul>
@@ -24,14 +27,16 @@ function ProposalPage() {
           <div className="full">
             <h3>Full Access</h3>
             <ul className="access-details">
-              <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
-              <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
-              <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
+              <li>WorkSessions for the project must be held in Sandbox Lab.</li>
+              <li>Sandbox parts must not be taken outside Sandbox Lab.</li>
+              <li>
+                Projects will be alloted Worksession slots to work in the Lab.
+              </li>
               <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
             </ul>
           </div>
           <div className="access-btns">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/formrestricted">
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/viewform">
               <button className="apply-btn">Apply</button>
             </a>
           </div>
@@ -45,7 +50,7 @@ function ProposalPage() {
             <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
           </ul>
           <div className="access-btns">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/formrestricted">
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc7nQaLoM3pGOl6SoSVX5hYQ4kfIaqnyj9LJfNTq4YivqpEdw/viewform">
               <button className="apply-btn">Apply</button>
             </a>
           </div>

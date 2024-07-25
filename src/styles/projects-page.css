@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding-bottom: 100px;
-}
 
+}
 
 .projects-page .header-text {
   color: white;
@@ -12,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.879));
+  background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.218),rgba(0, 0, 0, 0.996));
   height: 100%;
   width: 100%;
   gap: 40px;
@@ -31,10 +30,13 @@
 
 .projects-page header h1 {
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-
+.projects-page header p{
+  font-size: 25px;
+  font-family: "Poppins";
+}
 .projects-page h1 {
   font-size: 60px;
   color: white;
@@ -46,4 +48,5 @@
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+  padding-bottom: 80px;
 }

@@ -1,14 +1,13 @@
-
 .proposal-page header {
-  background-image: url("../Assets/sandbox_acrylic.jpg");
+  background-image: url("../Assets/fingerprint.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-position-y: -150px;
   height: 200px;
 }
 
 .proposal-page header .header-text {
-    color: white   ;
+  color: white;
   background-image: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0),
@@ -28,7 +27,7 @@
   font-size: 40px;
 }
 
-.proposal-page h3{
+.proposal-page h3 {
   color: gold;
 
   font-size: 30px;
@@ -41,10 +40,8 @@
   justify-content: space-evenly;
 }
 
-
-
 .proposal-page .access {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   background-color: rgb(35, 35, 35);
   gap: 20px;
@@ -52,7 +49,7 @@
   border-radius: 2%;
   height: 500px;
 }
-.proposal-page .one-req{
+.proposal-page .one-req {
 }
 
 .proposal-page .access-details {
@@ -68,16 +65,17 @@
   max-width: 100%; /* Ensure the width doesn't exceed the container */
   text-wrap: wrap;
   white-space: normal; /* Ensure text wraps correctly */
+  list-style-type: disc;
 }
 
-.access-btns{
+.access-btns {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px 0;
 }
 
-.apply-btn{
+.apply-btn {
   font-size: 15px;
   padding: 8px 25px;
   border-radius: 30px;
@@ -90,7 +88,7 @@
   transition: 0.5s;
 }
 
-.apply-btn:hover{
+.apply-btn:hover {
   background-color: white;
   color: black;
 }
