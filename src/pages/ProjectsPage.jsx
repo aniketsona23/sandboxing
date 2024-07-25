@@ -6,7 +6,11 @@ import React, { memo } from "react";
 const ProjectsPage = memo(() => {
   return (
     <section className="projects-page">
-      <h1>Current Projects...</h1>
+      <header>
+        <div className="header-text">
+          <h1>Projects</h1>
+        </div>
+      </header>
       <div className="projects">
         {Projects.map((element, i) => {
           return (

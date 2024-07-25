@@ -2,8 +2,8 @@
 
 
 .menu-icon-closed{
-    top: 20px;
     position: absolute;
+    top: 20px;
     right: 55px;
     width: 30px;
     height: 30px;
@@ -32,7 +32,7 @@
 
 .menu-icon-open {
     top: 20px;
-    
+    transition: all 0.5s;
     align-content: center;
     position: absolute;
     right: 55px;
@@ -75,3 +75,17 @@
 .menu-icon-closed:hover .line2{
     transform: rotate(+45deg);
 }
+
+
+/* .menu-icon-open:hover {
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+   gap: 10px;
+    
+}
+
+.menu-icon-open:hover .line{
+    width: 14px;
+     
+ } */

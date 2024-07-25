@@ -30,15 +30,25 @@ function ProposalPage() {
               <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
             </ul>
           </div>
+          <div className="access-btns">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/formrestricted">
+              <button className="apply-btn">Apply</button>
+            </a>
+          </div>
         </div>
         <div className="one-req access">
-          <h3>One-Off Requests</h3>
+          <h2>One-Off Requests</h2>
           <ul className="access-details">
             <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
             <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
             <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
             <li>Lorem ipsum dolor sit amet consec tetur adipisicing.</li>
           </ul>
+          <div className="access-btns">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/formrestricted">
+              <button className="apply-btn">Apply</button>
+            </a>
+          </div>
         </div>
       </main>
     </div>

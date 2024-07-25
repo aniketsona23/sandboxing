@@ -1,9 +1,39 @@
 .projects-page {
   display: flex;
   flex-direction: column;
-  padding: 90px 30px;
   gap: 50px;
+  padding-bottom: 100px;
 }
+
+
+.projects-page .header-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.879));
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+  padding: 50px;
+}
+
+.projects-page header {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: max-content;
+  background-image: url("../Assets/microcontroller.jpg");
+  width: 100%;
+  background-position: 0px -100px;
+}
+
+.projects-page header h1 {
+  font-size: 70px;
+  font-weight: 400;
+}
+
 
 .projects-page h1 {
   font-size: 60px;

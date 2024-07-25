@@ -15,7 +15,7 @@ export default function FaqCard({quest,ans}) {
   }
   return (
     <div className={`faq-card-${state}`}>
-        <div className="faq-quest">
+        <div className="faq-quest" onClick={handler}>
           <span>{quest}</span>
           <KeyboardArrowDownIcon className="opener" onClick={handler}/>
         </div>

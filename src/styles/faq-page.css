@@ -68,7 +68,11 @@
   z-index: 5;
   color: white;
   padding: 10px 0;
+  cursor: pointer;
 }
+
+
+
 
 .faq-section .faq-ans {
   overflow-y: hidden;

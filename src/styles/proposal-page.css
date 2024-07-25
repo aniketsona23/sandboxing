@@ -44,11 +44,11 @@
 
 
 .proposal-page .access {
-  display: flex;
+  display: flex;  
   flex-direction: column;
   background-color: rgb(35, 35, 35);
   gap: 20px;
-  padding: 30px 50px;
+  padding: 50px 50px;
   border-radius: 2%;
   height: 500px;
 }
@@ -68,4 +68,29 @@
   max-width: 100%; /* Ensure the width doesn't exceed the container */
   text-wrap: wrap;
   white-space: normal; /* Ensure text wraps correctly */
+}
+
+.access-btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.apply-btn{
+  font-size: 15px;
+  padding: 8px 25px;
+  border-radius: 30px;
+  font-family: "Poppins";
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.apply-btn:hover{
+  background-color: white;
+  color: black;
 }
