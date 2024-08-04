@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.full-project-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 95vh;
+}
+
+.full-project-card img {
+  width: 35vw;
+  height: 75vh;
+  border-radius: 0 5% 5% 0;
+}
+
+.full-project-card .project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+  height: 75vh;
+  color: white;
+  padding: 0 20px;
+}
+
+.full-project-card .project-desc {
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.full-project-card .project-title {
+  margin-left: 0;
+  color: gold;
+}
+.project-points {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  gap: 20px;
+}
+
+.project-points li {
+  list-style-type: disc;
+  list-style-position: inside;
+  width: 100%;
+}
+
+.full-project-card:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.full-project-card:nth-child(2n) img {
+  border-radius: 5% 0% 0% 5%;
+}
+
+.full-project-card .project-details header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-image: none;
+}
+
+.full-project-card .project-details img {
+  background-image: none;
+  width: 40px;
+  height: 40px;
+}

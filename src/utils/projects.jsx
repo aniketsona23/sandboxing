@@ -9,6 +9,7 @@ import rocketary from "../Assets/projects/rocketary.jpeg";
 let Projects = [
   {
     title: "SpiderBot",
+    links: {},
     description:
       "Spiderbot is a six legged ground robot, commonly known as an hexapod.",
     image: spiderbot,
@@ -24,6 +25,7 @@ let Projects = [
   },
   {
     title: "Trotbot",
+    links: {},
     description:
       "Trotbot is a multipurpose omnidirectional ground robot, designed to serve autonomously in an indoor environment.",
     image: trotbot,
@@ -42,7 +44,7 @@ let Projects = [
     description:
       "Project Kratos is a student team that designs and manufactures autonomous, all-terrain Martian rover with a robotic arm and an onboard laboratory for detecting life.",
     image: kratos,
-    link: "https://kratos-the-rover.github.io/",
+    links: { github: "https://kratos-the-rover.github.io/" },
     summary: {
       brief:
         "The rover is capable of autonomously traversing uneven terrain as experienced in Mars, use its robotic arm to manipulate switches, turn knobs and identify signs of life in rock and soil samples.",
@@ -56,6 +58,8 @@ let Projects = [
   },
   {
     title: "StrikeBot",
+    links: {},
+
     description:
       "Strike bot is a spherical ground robot controlled by an internal pendulum and DC motors",
     image: strikebot,
@@ -71,6 +75,8 @@ let Projects = [
   },
   {
     title: "Rocketary",
+    links: {},
+
     image: rocketary,
     description:
       "Project Rocketry is working on building a self-landing model rocket propelled by a hybrid engine.",
@@ -85,6 +91,8 @@ let Projects = [
   },
   {
     title: "Robotic Arm",
+    links: {},
+
     image: roboticarm,
     description:
       "Robotic Arm aims at making an autonomous arm capable of complex manipulations in addition to basic pick-place operations",
@@ -95,6 +103,8 @@ let Projects = [
   },
   {
     title: "CanSat",
+    links: {},
+
     image: cansat,
     description:
       "Team Rayquaza is participating in ASI's design-build-launch CANSAT competition, where each team has to build a functioning CANSAT adhering to the competition requirements.",

@@ -1,5 +1,5 @@
 import { Projects } from "../utils/projects";
-import Card from "../Components/ProjectSliderCard";
+import FullProjectCard from "../Components/fullProjectCard";
 import "../styles/projects-page.css";
 import React, { memo } from "react";
 
@@ -15,12 +15,14 @@ const ProjectsPage = memo(() => {
       <div className="projects">
         {Projects.map((element, i) => {
           return (
-            <Card
+            <FullProjectCard
               key={i}
-              image={element.image}
-              link=""
+              img={element.image}
+              links={element.links}
               title={element.title}
               desc={element.description}
+              points={element.summary.points}
+              brief={element.summary.brief}
             />
           );
         })}

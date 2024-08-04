@@ -1,7 +1,7 @@
-.proposal-page{
+.proposal-page {
   font-family: "Poppins";
 }
-.proposal-page header {
+.proposal-page > header {
   background-image: url("../Assets/fingerprint.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +56,6 @@
 .proposal-page .one-req p {
   font-size: 25px;
   font-family: "Poppins";
-
 }
 
 .proposal-page .access-details {
