@@ -4,7 +4,7 @@ function About() {
   return (
     <div id="about-section">
       <h1 className="section-header">
-        How Does <span>SANDBOX</span> Help You?
+        About <span>SANDBOX</span>
       </h1>
       <div className="about-cards">
         <div className="about-card">

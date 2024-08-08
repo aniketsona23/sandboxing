@@ -10,7 +10,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.218),rgba(0, 0, 0, 0.996));
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.218),
+    rgba(0, 0, 0, 0.996)
+  );
   height: 100%;
   width: 100%;
   gap: 40px;
@@ -21,7 +25,7 @@
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   height: max-content;
   background-image: url("../Assets/sandbox_acrylic.jpg");
   width: 100%;
@@ -33,13 +37,9 @@
   font-weight: 600;
 }
 
-.members-page header p{
+.members-page header p {
   font-size: 25px;
-  font-family: "Poppins";
 }
-
-
-
 
 .members {
   display: flex;
@@ -67,12 +67,9 @@
 .member-card ul {
   list-style: none;
   display: flex;
-  gap: 10px;
-}
+  align-items: center;
 
-.member-card h2 {
-  line-height: 30px;
-  margin-bottom: 30px;
+  gap: 10px;
 }
 
 .member-card .card-overlay {
@@ -81,8 +78,14 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  transition: all 0.5s;
+  font-weight: 200;
 
+  transition: all 0.5s;
+}
+
+.member-card h3 {
+  font-weight: 200;
+  font-size: 30px;
 }
 
 .member-card .card-overlay,
@@ -91,22 +94,16 @@
   z-index: 2;
   height: 100%;
   width: 100%;
-  bottom: 101.3%;
+  bottom: 102%;
   border-radius: 10px;
   color: rgba(255, 255, 255, 0);
   background-color: rgba(0, 0, 0, 0);
-}
-
-
-.member-card ul{
-    align-items: center;
 }
 
 .member-card:hover .card-overlay {
   color: white;
   background-color: rgba(0, 0, 0, 0.589);
 }
-
 
 .member-card:hover a {
   color: white;
@@ -116,14 +113,13 @@
   font-size: 30px;
   padding: 5px;
   transition: all 0.5s;
-
 }
 
-.member-card:hover .icon{
+.member-card:hover .icon {
   color: #ffffff;
 }
 
-.member-card .icon:hover{
+.member-card .icon:hover {
   color: gold;
 }
 
@@ -131,19 +127,17 @@
   font-size: 30px;
   padding: 5px;
   transition: all 0.5s;
-
 }
 
-
-.member-card .icon{
-    color: rgba(240, 248, 255, 0);
+.member-card .icon {
+  color: rgba(240, 248, 255, 0);
 }
 
-.faculty{
+.faculty {
   margin-bottom: 40px;
 }
 
-.members-page h1{
+.members-page h1 {
   color: white;
   font-size: 70px;
 }

@@ -1,16 +1,24 @@
 .hero {
   height: 100vh;
+
+  background: rgb(0, 0, 0);
+
+  /* background-image: url("../Assets/sandboxN.jpg"); */
+  background-repeat: no-repeat;
+}
+
+.hero-overlay {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  background: rgb(0, 0, 0);
+  height: 100vh;
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 1) 0%,
-    #343434de 50%,
-    rgba(237, 167, 26, 0.668) 100%
+    rgba(0, 0, 0, 0.668) 0%,
+    #000000de 50%,
+    rgba(0, 0, 0, 1) 100%
   );
 }
 

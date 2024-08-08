@@ -1,29 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-
-.nav-bar {
-  position: fixed;
-  width: 97%;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  background-color: transparent;
-  z-index: 10;
-}
-
-.nav-bar img {
-  width: 55px;
-  height: 60px;
-}
-
-
 .nav-links {
-  position: absolute;
+  position: fixed;
   z-index: 10;
-  top: 10px;
+  top: 25px;
   right: 44px;
   overflow: hidden;
   border-radius: 30px;
@@ -54,7 +34,7 @@
   font-weight: 500;
 }
 
-.menu-closed .overlay{
+.menu-closed .overlay {
   height: 0;
 }
 
@@ -83,11 +63,7 @@ li {
     transition: all 0.2s;
 } */
 
-.nav-links a {
-  font-family: "Poppins";
-}
-
-.nav-bar .nav-links a::after {
+.nav-links a::after {
   display: block;
   content: "";
   width: 0%;
@@ -96,16 +72,15 @@ li {
   height: 2px;
 }
 
-.nav-bar .nav-links a:hover:after {
+.nav-links a:hover:after {
   width: 100%;
   left: 0;
 }
 
-.nav-links .access-form-btn{
+.nav-links .access-form-btn {
   border-radius: 10px;
   font-size: medium;
   padding: 10px 10px;
-  font-family: "Poppins";
   background-color: rgba(0, 0, 0, 0.599);
   filter: blur(0.5);
   border: 2px solid white;
@@ -115,17 +90,16 @@ li {
   transition: all 0.4s;
 }
 
-
-.menu-open .access-form-btn{
-  transition: all 0.7s 0.5S;
-  transform:scale(none)
+.menu-open .access-form-btn {
+  transition: all 0.7s 0.5s;
+  transform: scale(none);
 }
 
 .menu-closed .access-form-btn {
-  transform:scale(0)
+  transform: scale(0);
 }
 
-.nav-links .access-form-btn:hover{
+.nav-links .access-form-btn:hover {
   border-color: goldenrod;
   transition: border-color 0.3s;
 }

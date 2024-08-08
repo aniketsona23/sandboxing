@@ -2,7 +2,8 @@ import "./index.css";
 import React, { Suspense, lazy } from "react";
 import HomePage from "./pages/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from "./Components/Navbar";
+import NavBar from "./Components/Menu";
+import SandboxLogo from "./Components/SandboxLogo";
 import Footer from "./Components/Footer";
 import MembersPage from "./pages/MembersPage";
 import FacilitiesPage from "./pages/FacilitiesPage";
@@ -14,6 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <Suspense fallback={<div>Loading ...</div>}>
+        <SandboxLogo />
         <NavBar />
         <Routes>
           <Route exact path="/" element={<HomePage />} />

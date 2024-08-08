@@ -1,9 +1,18 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 import github from "../Assets/github.png";
 import "../styles/full-project-card.css";
+
 function FullProjectCard({ img, title, desc, points, links }) {
   return (
-    <div className="full-project-card">
+    <motion.div
+      className="full-project-card"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+    >
       <div className="project-img">
         <img src={img} alt="" />
       </div>
@@ -25,7 +34,7 @@ function FullProjectCard({ img, title, desc, points, links }) {
           })}
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

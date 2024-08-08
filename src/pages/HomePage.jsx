@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <section className="home-page">
       <Hero />
-      <SandboxVid />
+      {/* <SandboxVid /> */}
       <About />
       <hr className="divider" />
       <Projects />
