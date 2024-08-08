@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-
 }
 
 .projects-page .header-text {
@@ -11,18 +10,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.218),rgba(0, 0, 0, 0.996));
-  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.218),
+    rgba(0, 0, 0, 0.996)
+  );
+  height: 350px;
   width: 100%;
   gap: 40px;
   padding: 50px;
 }
 
-.projects-page header {
+.projects-page > header {
   display: flex;
   background-repeat: no-repeat;
-  background-size:cover;
-  height: max-content;
+  background-size: cover;
+  height: 450px;
   background-image: url("../Assets/microcontroller.jpg");
   width: 100%;
   background-position: 0px -100px;
@@ -33,7 +36,7 @@
   font-weight: 600;
 }
 
-.projects-page header p{
+.projects-page header p {
   font-size: 25px;
   font-family: "Poppins";
 }

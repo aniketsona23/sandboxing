@@ -1,6 +1,7 @@
 import Card from "./ProjectSliderCard";
 import { Projects } from "../utils/projects";
-import "../styles/projects.css"
+import "../styles/projects.css";
+import { Link } from "react-router-dom";
 
 function CardTicker() {
   console.log(Projects);
@@ -11,13 +12,15 @@ function CardTicker() {
         <div className="ticker">
           {Projects.map((element, i) => {
             return (
-              <Card
-                key={i}
-                image={element.image}
-                link=""
-                title={element.title}
-                desc={element.description}
-              />
+              <Link to="/projects">
+                <Card
+                  key={i}
+                  image={element.image}
+                  link=""
+                  title={element.title}
+                  desc={element.description}
+                />
+              </Link>
             );
           })}
         </div>
