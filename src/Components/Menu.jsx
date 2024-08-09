@@ -48,7 +48,7 @@ function NavBar() {
               Members
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/Facilities"
               onClick={() => {
@@ -57,7 +57,7 @@ function NavBar() {
             >
               Facilities
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/faq"
