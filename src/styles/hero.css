@@ -1,10 +1,10 @@
 .hero {
   height: 100vh;
-
   background: rgb(0, 0, 0);
 
-  /* background-image: url("../Assets/sandboxN.jpg"); */
+  background-image: url("../Assets/sandboxNew.jpeg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-overlay {
@@ -15,10 +15,10 @@
   color: white;
   height: 100vh;
   background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.668) 0%,
-    #000000de 50%,
-    rgba(0, 0, 0, 1) 100%
+    180deg,
+    rgba(0, 0, 0, 0.403) 0%,
+    rgba(0, 0, 0, 0.659) 50%,
+    rgb(0, 0, 0) 100%
   );
 }
 
