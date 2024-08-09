@@ -2,8 +2,6 @@ import { Projects } from "../utils/projects";
 import FullProjectCard from "../Components/fullProjectCard";
 import "../styles/projects-page.css";
 import React, { memo } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const ProjectsPage = memo(() => {
   return (

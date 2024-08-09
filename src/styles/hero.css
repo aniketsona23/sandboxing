@@ -29,34 +29,44 @@
   height: 100%;
 }
 .hero h1 {
-  font-size: 60px;
+  font-size: 90px;
+  font-weight: 300;
 }
 
+.hero h1 span {
+  color: gold;
+  font-weight: 500;
+}
 .hero p {
   font-size: 25px;
   margin: 20px 0;
 }
 
-.hero-btn {
+.hero-btns {
   display: flex;
   width: 20%;
   gap: 20px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.hero .access-btn {
-  border: none;
-  padding: 5px 15px;
-  background-color: white;
-  color: black;
+.hero-btns .btn {
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  background-color: rgba(220, 156, 6, 0.229);
+  backdrop-filter: blur(5px);
+  color: white;
   border-radius: 5px;
   font-size: 20px;
   width: max-content;
   text-wrap: nowrap;
   cursor: pointer;
+  transition: 0.5s all;
 }
 
-.about-btn {
+.hero-btns .btn:hover {
+  border: 2px solid white;
+}
+/* .about-btn {
   border-radius: 5px;
   font-size: 20px;
   text-wrap: nowrap;
@@ -66,4 +76,4 @@
   background-color: black;
   color: white;
   width: max-content;
-}
+} */
