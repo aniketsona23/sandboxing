@@ -144,4 +144,16 @@
   #about-section .section-header {
     font-size: 22px;
   }
+
+  #about-section .about-card {
+    flex-direction: column;
+    padding: 4%;
+  }
+  #about-section .about-card .about-card-details {
+    width: 90%;
+    padding: 2%;
+  }
+  #about-section .about-card .about-card-img {
+    width: 50%;
+  }
 }
