@@ -8,13 +8,18 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-image: url("./Assets/aboutBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #sandbox-logo {
   z-index: 99;
   position: fixed;
   left: 5%;
   top: 5%;
-  width: 70px;
-  height: 75px;
+  width: 60px;
+  height: 65px;
 }
 
 body {

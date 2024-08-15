@@ -1,31 +1,24 @@
-
-.footer main {
-  background-color: rgb(37, 37, 37);
-  color: white;
-  display: flex;
-  padding: 30px;
-  justify-content: space-around;
-  align-items: flex-start;
+.footer {
+  width: 100%;
 }
 
-.footer .socials h1 {
-  height: max-content;
+.footer main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: rgb(37, 37, 37);
+  color: white;
 }
 
 .footer ul {
-  align-items: center;
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 10%;
   text-decoration: none;
 }
 
-.footer p {
-  text-align: center;
-  font-size: x-small;
-  padding: 2px 0;
-}
-
-.icon{
+.icon {
   border-radius: 50%;
   color: white;
 }
@@ -54,7 +47,6 @@
   transition: 0.5s all;
 }
 
-
 .icon:hover {
   background-color: rgb(59, 59, 59);
   color: gold;
@@ -63,9 +55,13 @@
 .address p {
   font-size: large;
   text-align: left;
+  padding: 2px 0;
 }
 
 .footer .copyright {
+  width: 100%;
   color: white;
   border-top: 2px solid rgba(0, 0, 0, 0.671);
+  text-align: center;
+  font-size: x-small;
 }

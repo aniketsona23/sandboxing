@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../styles/hero.css";
+
 function Hero() {
   const navigate = useNavigate();
   return (

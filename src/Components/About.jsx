@@ -1,6 +1,7 @@
 import "../styles/about.css";
 import dPrinter from "../Assets/3dPrinter.png";
 import arduino from "../Assets/arduino.png";
+
 function About() {
   return (
     <div id="about-section">
