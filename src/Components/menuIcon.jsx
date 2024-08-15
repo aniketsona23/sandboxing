@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/menu-icon.css";
 
 export default function MenuIcon({ state, changeState }) {
