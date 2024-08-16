@@ -21,7 +21,7 @@
   background-size: cover;
   height: max-content;
   background-image: url("../Assets/Bdome-2-1.jpg");
-  width: 100%;
+  background-position: center;
 }
 
 .faq-page header h1 {
@@ -56,7 +56,7 @@
   font-size: 20px;
   width: 70%;
   border-radius: 20px;
-  padding: 30px;
+  padding: 25px;
   overflow: hidden;
   border-bottom: 2px solid gold;
 }
@@ -69,6 +69,7 @@
 
 .faq-section .faq-quest {
   position: relative;
+  display: flex;
   z-index: 5;
   color: white;
   padding: 10px 0;
@@ -117,4 +118,44 @@
 
 .faq-section .faq-card-closed .opener {
   color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .faq-page header h1 {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+  }
+  .faq-page .header-text {
+    padding: 20px;
+    padding-top: 25%;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.292),
+      rgba(0, 0, 0, 0.767)
+    );
+  }
+
+  .faq-section {
+    padding-top: 50px;
+  }
+  .faq-page .header-text p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .faq-section .faq-card-closed,
+  .faq-section .faq-card-open {
+    border-radius: 15px;
+  }
+
+  .faq-page .faq-ans {
+    font-size: 15px;
+    padding: 5px 0;
+  }
+  .faq-page .faq-quest {
+    padding: 0;
+    font-size: 15px;
+    align-items: center;
+  }
 }

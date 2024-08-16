@@ -8,7 +8,7 @@ const MembersPage = memo(() => {
     <section className="members-page">
       <header>
         <div className="header-text">
-          <h1>Sandbox Community</h1>
+          <h1>Sandbox Committee</h1>
           {/* <p>A Plethora of Projects are being developed at Sandbox!</p> */}
         </div>
       </header>
@@ -25,7 +25,7 @@ const MembersPage = memo(() => {
           );
         })}
       </div>
-      <h1>Faculty</h1>
+      <h1 className="faculty-header">Faculty</h1>
       <div className="faculty">
         {faculty.map((element, i) => {
           return (

@@ -16,7 +16,6 @@
     rgba(0, 0, 0, 0.996)
   );
   height: 100%;
-  width: 100%;
   gap: 40px;
   padding: 50px;
 }
@@ -26,15 +25,15 @@
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: max-content;
   background-image: url("../Assets/sandbox_acrylic.jpg");
-  width: 100%;
+  background-position: center;
   height: 30vh;
 }
 
 .members-page header h1 {
   font-size: 70px;
   font-weight: 600;
+  width: 100%;
 }
 
 .members-page header p {
@@ -94,7 +93,7 @@
   z-index: 2;
   height: 100%;
   width: 100%;
-  bottom: 102%;
+  bottom: 102.5%;
   border-radius: 10px;
   color: rgba(255, 255, 255, 0);
   background-color: rgba(0, 0, 0, 0);
@@ -140,4 +139,32 @@
 .members-page h1 {
   color: white;
   font-size: 70px;
+}
+
+@media screen and (max-width: 400px) {
+  .members-page header h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .member-card {
+    height: 256px;
+    width: 206px;
+    border-radius: 5px;
+  }
+  .member-card img {
+    height: 255px;
+    width: 205px;
+    border-radius: 5px;
+  }
+
+  .member-card .card-overlay {
+    border-radius: 5px;
+    bottom: 102%;
+  }
+
+  .members-page h1 {
+    font-size: 35px;
+  }
 }
