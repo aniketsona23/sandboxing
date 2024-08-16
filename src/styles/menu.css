@@ -3,8 +3,8 @@
 .nav-links {
   position: fixed;
   z-index: 10;
-  top: 25px;
-  right: 44px;
+  top: 20px;
+  right: 35px;
   overflow: hidden;
   border-radius: 30px;
   backdrop-filter: blur(7px);
@@ -103,4 +103,57 @@ li {
 .nav-links .access-form-btn:hover {
   border-color: goldenrod;
   transition: border-color 0.3s;
+}
+
+@media screen and (max-width: 750px) {
+  .nav-links ul {
+    font-size: 18px;
+  }
+  .menu-open .nav-links {
+    height: 230px;
+    width: 230px;
+    border-radius: 25px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .nav-links {
+    right: 23px;
+  }
+
+  .nav-links ul {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .menu-open .nav-links {
+    height: 230px;
+    width: 230px;
+    border-radius: 25px;
+  }
+
+  .menu-open .access-form-btn {
+    border-radius: 8px;
+    padding: 6px 8px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .nav-links {
+    right: 16px;
+  }
+
+  .nav-links ul {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .menu-open .nav-links {
+    height: 230px;
+    width: 210px;
+    border-radius: 25px;
+  }
+
+  .menu-open .access-form-btn {
+    border-radius: 8px;
+    font-size: small;
+    padding: 8px 10px;
+    margin-top: 20px;
+  }
 }

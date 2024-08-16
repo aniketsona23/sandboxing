@@ -12,15 +12,13 @@ function CardTicker() {
         <div className="ticker">
           {Projects.map((element, i) => {
             return (
-              <Link to="/projects">
-                <Card
-                  key={i}
-                  image={element.image}
-                  link=""
-                  title={element.title}
-                  desc={element.description}
-                />
-              </Link>
+              <Card
+                key={i}
+                image={element.image}
+                link=""
+                title={element.title}
+                desc={element.description}
+              />
             );
           })}
         </div>

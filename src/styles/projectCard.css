@@ -55,3 +55,43 @@
   color: black;
   visibility: visible;
 }
+
+@media screen and (max-width: 550px) {
+  .project-card {
+    height: 300px;
+    width: 300px;
+  }
+  .project-card img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .project-card .card-overlay {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .project-card {
+    height: 230px;
+    width: 210px;
+  }
+  .project-card img {
+    height: 230px;
+    width: 211px;
+  }
+
+  .project-card .card-overlay {
+    height: 230px;
+  }
+
+  .project-card .card-overlay h2 {
+    font-size: 25px;
+    top: 15px;
+  }
+
+  .project-card .card-overlay p {
+    top: 50px;
+    font-size: 12px;
+    padding: 20px;
+  }
+}
