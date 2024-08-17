@@ -7,7 +7,15 @@
   font-family: "Poppins";
   scroll-behavior: smooth;
 }
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* for Safari on iOS */
+  outline: none; /* for Chrome and other browsers */
+}
 
+/* Removes outline for focus state on all elements */
+*:focus {
+  outline: none;
+}
 body {
   background-image: url("./Assets/aboutBg.png");
   background-size: cover;

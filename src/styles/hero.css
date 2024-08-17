@@ -51,13 +51,14 @@
 }
 
 .hero-btns .btn {
-  border: 2px solid transparent;
-  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.532);
+  border-radius: 8px;
   padding: 10px 25px;
   width: max-content;
 
-  background-color: rgba(220, 156, 6, 0.229);
-  backdrop-filter: blur(5px);
+  background-color: transparent;
+
+  backdrop-filter: blur(10px);
   color: white;
 
   font-size: 20px;
@@ -69,9 +70,8 @@
 }
 
 .hero-btns .btn:hover {
-  border: 2px solid white;
+  border: 2px solid rgb(205, 148, 6);
 }
-
 @media only screen and (max-width: 1200px) {
   .hero h1 {
     font-size: 70px;
@@ -116,20 +116,30 @@
   }
 }
 @media only screen and (max-width: 430px) {
+  .hero,
+  .hero-overlay {
+    height: 95vh;
+  }
   .hero-overlay {
     justify-content: start;
-    padding-top: 50%;
+    padding-top: 40%;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.559) 0%,
+      rgba(0, 0, 0, 0.914) 50%,
+      rgb(0, 0, 0) 100%
+    );
   }
   .hero h1 {
     font-size: 50px;
-    text-align: left;
+    /* text-align: left; */
     padding: 0 5%;
   }
   .hero p {
-    font-size: 12px;
+    font-size: 18px;
   }
   .hero-btns .btn {
-    font-size: 12px;
+    font-size: 18px;
     padding: 2px 10px;
   }
 }

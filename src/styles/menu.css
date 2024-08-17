@@ -8,6 +8,7 @@
   overflow: hidden;
   border-radius: 30px;
   backdrop-filter: blur(7px);
+  user-select: none;
 }
 
 .menu-open .nav-links {
@@ -136,6 +137,9 @@ li {
   }
 }
 @media screen and (max-width: 430px) {
+  .nav-links {
+    top: 35px;
+  }
   .nav-links {
     right: 16px;
   }

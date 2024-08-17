@@ -34,7 +34,10 @@ function ProposalPage() {
             </ul>
           </div>
           <div className="access-btns">
-            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/viewform">
+            <a
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/viewform"
+            >
               <button className="apply-btn">Apply</button>
             </a>
           </div>
@@ -42,11 +45,32 @@ function ProposalPage() {
         <div className="one-req access">
           <h2>One-Off Requests</h2>
           <ul className="access-details">
-            <p>Couldn't get Access for Sandbox ? Or Just want one-time use to our facilities like 3D- Printer , Laser-Cutter etc?<br /><br />
-            You can apply through <b>One-Off Request Form</b> to submit request. If the committee approves, you can use the facility for one time work.</p>
+            <p>
+              Didn't get approved for ongoing Sandbox access, or only need a
+              one-time use of our advanced facilities, like the 3D printer,
+              laser cutter, or PCB printer? We've got you covered!
+              <br />
+              <br />
+              You can apply through our <b>One-Time Use Request Form</b>. This
+              option is perfect for students and project teams who require
+              access to specific equipment for a single task or project but
+              don’t need continuous access to the lab. Once you submit your
+              request, it will be reviewed by our committee. If your application
+              is approved, you'll be granted access to the necessary facilities
+              for one-time use to complete your work.
+              <br />
+              <br />
+              Whether you’re working on a small project or just need to test
+              something out, our One-Time Use option is designed to support your
+              innovation and creativity without the need for a full-time
+              commitment to Sandbox.
+            </p>
           </ul>
           <div className="access-btns">
-            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc7nQaLoM3pGOl6SoSVX5hYQ4kfIaqnyj9LJfNTq4YivqpEdw/viewform">
+            <a
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc7nQaLoM3pGOl6SoSVX5hYQ4kfIaqnyj9LJfNTq4YivqpEdw/viewform"
+            >
               <button className="apply-btn">Apply</button>
             </a>
           </div>

@@ -68,7 +68,7 @@
 } */
 
 .faq-section .faq-quest {
-  position: relative;
+  /* position: relative;   */
   display: flex;
   z-index: 5;
   color: white;
@@ -132,7 +132,7 @@
     background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.292),
-      rgba(0, 0, 0, 0.767)
+      rgba(0, 0, 0, 0.899)
     );
   }
 
@@ -151,11 +151,12 @@
 
   .faq-page .faq-ans {
     font-size: 15px;
-    padding: 5px 0;
+    padding: 2px 0;
   }
   .faq-page .faq-quest {
-    padding: 0;
+    padding: 5px;
     font-size: 15px;
-    align-items: center;
+    align-items: flex-start;
+    display: flex;
   }
 }

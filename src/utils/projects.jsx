@@ -101,22 +101,6 @@ let Projects = [
       points: [],
     },
   },
-  {
-    title: "CanSat",
-    links: {},
-
-    image: cansat,
-    description:
-      "Team Rayquaza is participating in ASI's design-build-launch CANSAT competition, where each team has to build a functioning CANSAT adhering to the competition requirements.",
-    summary: {
-      brief: "",
-      points: [
-        "Completed assembly of the entire cansat, including a working gyroscope, attached parachutes and parachute deployment mechanism.",
-        "Established communication between the cansat and the ground station from a range of 600 meters, the maximum viable testing range available on campus.",
-        "Designed PCB to host the electronic devices on board the cansat.",
-      ],
-    },
-  },
 ];
 
 function compare(a, b) {

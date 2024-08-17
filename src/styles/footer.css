@@ -74,6 +74,7 @@
 .footer .copyright {
   width: 100%;
   color: white;
+  background-color: black;
   border-top: 2px solid rgba(0, 0, 0, 0.671);
   text-align: center;
   font-size: x-small;
@@ -130,6 +131,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .footer main {
+    gap: 5%;
+  }
   .footer .section-header {
     font-size: 25px;
   }
