@@ -98,7 +98,11 @@ let Projects = [
       "Robotic Arm aims at making an autonomous arm capable of complex manipulations in addition to basic pick-place operations",
     summary: {
       brief: "",
-      points: [],
+      points: [
+        "Prototype 1 has been made on the mech side and work will be done on second version.",
+        "In automation open loop pick and place has been achieven in simulation , along with some literature review on non-prehensible motion.",
+        "One the electronics front , the project intends to try a new actuator design for the second version.",
+      ],
     },
   },
 ];

@@ -1,6 +1,9 @@
 .projects-page {
   display: flex;
   flex-direction: column;
+  background-image: url("../Assets/aboutBg.png");
+  background-size: cover;
+
   gap: 50px;
   width: 100%;
 }
