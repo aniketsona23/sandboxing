@@ -1,4 +1,4 @@
-import "../styles/projectCard.css"
+import "../styles/projectCard.css";
 
 function Card({ image, title, desc, points, link }) {
   return (

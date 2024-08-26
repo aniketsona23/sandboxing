@@ -1,11 +1,11 @@
-import Card from "./ProjectSliderCard";
-import { Projects } from "../utils/projects";
-import "../styles/projects.css";
+import Card from "./FacilitiesCard.jsx";
+import "../styles/facilities.css";
 import { useRef } from "react";
 import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import ChevronLeftRoundedIcon from "@mui/icons-material/ChevronLeftRounded";
+import { facilities } from "../utils/facilities.jsx";
 
-function CardTicker() {
+function Facilities() {
   const scrollCardTicker = useRef(null);
 
   const handleScrollRight = (e) => {
@@ -20,9 +20,9 @@ function CardTicker() {
   };
 
   return (
-    <div className="project-section">
+    <div className="facilities-section">
       <header>
-        <h1 className="section-header">Ongoing Projects</h1>
+        <h1 className="section-header">Facilities at Sandbox</h1>
         <div className="slider-arrows">
           <ChevronLeftRoundedIcon
             id="slider-arrow-icon"
@@ -38,16 +38,8 @@ function CardTicker() {
       </header>
       <div className="card-ticker" ref={scrollCardTicker}>
         <div className="ticker">
-          {Projects.map((element, i) => {
-            return (
-              <Card
-                key={i}
-                image={element.image}
-                link=""
-                title={element.title}
-                desc={element.description}
-              />
-            );
+          {facilities.map((element, i) => {
+            return <Card key={i} image={element.image} title={element.title} />;
           })}
         </div>
       </div>
@@ -55,4 +47,4 @@ function CardTicker() {
   );
 }
 
-export default CardTicker;
+export default Facilities;

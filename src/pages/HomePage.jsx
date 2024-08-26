@@ -1,6 +1,7 @@
 import Hero from "../Components/Hero";
 import Projects from "../Components/ProjectSlider";
 import About from "../Components/About";
+import Facilities from "../Components/Facilities";
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <About />
       <hr className="divider" />
       <Projects />
+      <Facilities />
     </section>
   );
 }

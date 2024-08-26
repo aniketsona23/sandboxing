@@ -1,4 +1,4 @@
-.project-section {
+.facilities-section {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -8,23 +8,23 @@
   text-align: center;
 }
 
-.project-section h1 {
+.facilities-section h1 {
   font-weight: 550;
 }
 
-.project-section header {
+.facilities-section header {
   display: flex;
   align-content: center;
   justify-content: space-between;
   padding: 0 30px;
 }
 
-.project-section .slider-arrows {
+.facilities-section .slider-arrows {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-.project-section .arrow-icon {
+.facilities-section .arrow-icon {
   font-size: 50px;
   border: 2px solid white;
   border-radius: 50%;
@@ -32,7 +32,7 @@
   transition: 0.5s all;
 }
 
-.project-section .arrow-icon:hover {
+.facilities-section .arrow-icon:hover {
   border-color: gold;
   scale: 1.1;
 }
@@ -64,17 +64,17 @@
 }
 
 @media screen and (max-width: 750px) {
-  .project-section h1 {
+  .facilities-section h1 {
     font-size: 45px;
   }
 }
 @media screen and (max-width: 550px) {
-  .project-section h1 {
+  .facilities-section h1 {
     font-size: 35px;
   }
 }
 @media screen and (max-width: 450px) {
-  .project-section h1 {
+  .facilities-section h1 {
     font-size: 25px;
   }
 }

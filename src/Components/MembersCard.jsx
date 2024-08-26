@@ -5,13 +5,19 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function MembersCard({ image, name, linkedin, mail }) {
   return (
-    <div className="member-card">
-      <img src={image} alt="" />
+    <div
+      style={{
+        backgroundImage: `url(${image}`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+      className="member-card"
+    >
       <footer className="card-overlay">
         <h3>{name}</h3>
         <ul>
           <li>
-            <a href={"mailto:"+mail} target="noopener noreferrer">
+            <a href={"mailto:" + mail} target="noopener noreferrer">
               <MailOutlineIcon className="icon" id="mail-icon" />
             </a>
           </li>
