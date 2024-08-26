@@ -58,12 +58,6 @@
   user-select: none;
 }
 
-.member-card img {
-  height: 300px;
-  width: 250px;
-  border-radius: 10px;
-}
-
 .member-card ul {
   list-style: none;
   display: flex;

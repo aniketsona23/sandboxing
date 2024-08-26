@@ -39,7 +39,7 @@ function Facilities() {
       <div className="card-ticker" ref={scrollCardTicker}>
         <div className="ticker">
           {facilities.map((element, i) => {
-            return <Card key={i} image={element.image} title={element.title} />;
+            return <Card key={i} image={element.image} title={element.name} />;
           })}
         </div>
       </div>

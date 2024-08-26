@@ -1,10 +1,10 @@
-import bambuX1C from "../Assets/facalities/bambuX1C.webp";
-import crealityEnder3P from "../Assets/facalities/crealityEnder3Pro.webp";
-import crealityEnderS1P from "../Assets/facalities/crealityEnderS1Plus.webp";
-import laserCutter from "../Assets/facalities/laser_cutter.webp";
-import pcbMilling from "../Assets/facalities/PCBMilling.jpg";
-import plasmaCutting from "../Assets/facalities/plasma_cutting.jpg";
-import ultimakerS5 from "../Assets/facalities/ultimakerS5.webp";
+import bambuX1C from "../Assets/facilities/bambuX1C.webp";
+import crealityEnder3P from "../Assets/facilities/crealityEnder3Pro.webp";
+import crealityEnderS1P from "../Assets/facilities/crealityEnderS1Plus.webp";
+import laserCutter from "../Assets/facilities/laser_cutter.webp";
+import pcbMilling from "../Assets/facilities/PCBMilling.jpg";
+import plasmaCutting from "../Assets/facilities/plasma_cutting.jpg";
+import ultimakerS5 from "../Assets/facilities/ultimakerS5.webp";
 
 let facilities = [
   {

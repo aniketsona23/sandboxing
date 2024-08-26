@@ -49,8 +49,7 @@
   user-select: none;
 }
 
-.project-card:hover h2,
-.project-card:hover p {
+.project-card:hover h2 {
   color: black;
   visibility: visible;
 }

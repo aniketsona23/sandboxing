@@ -1,16 +1,21 @@
 .facility-card {
   border-radius: 10px;
   height: 320px;
-  width: 360px;
-  background-position: center;
-  background-color: antiquewhite;
+  width: 330px;
   user-select: none;
   /* margin: 10px; */
+}
+
+.facility-card img {
+  height: 320px;
+  width: 330px;
+  border-radius: 10px;
 }
 
 .facility-card .card-overlay {
   overflow: hidden;
   position: sticky;
+  bottom: 102%;
   background-color: rgba(0, 0, 0, 0);
   height: 320px;
   border-radius: 10px;
@@ -19,33 +24,22 @@
 }
 
 .facility-card:hover .card-overlay {
-  background-color: rgba(255, 255, 255, 0.797);
+  background-color: rgba(0, 0, 0, 0.797);
 }
 
 .facility-card .card-overlay h2 {
   position: sticky;
-  top: 30px;
+  top: 30%;
   visibility: hidden;
   color: rgba(255, 255, 255, 0);
-  font-size: 29px;
-  font-weight: 600;
-  user-select: none;
-}
-
-.facility-card .card-overlay p {
-  color: rgba(255, 255, 255, 0);
-  position: sticky;
-  visibility: hidden;
-  top: 90px;
-  text-align: left;
-  padding: 25px;
+  font-size: 25px;
   font-weight: 500;
   user-select: none;
 }
 
 .facility-card:hover h2,
 .facility-card:hover p {
-  color: black;
+  color: white;
   visibility: visible;
 }
 

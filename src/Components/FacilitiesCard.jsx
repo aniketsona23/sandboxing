@@ -1,19 +1,14 @@
-import React from "react";
 import "../styles/facilitiesCard.css";
 
-export default function Card({ image, name }) {
+function Card({ image, title }) {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${image}`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-      className="facility-card"
-    >
+    <div className="facility-card">
+      <img src={image} alt="" />
       <footer className="card-overlay">
-        <h3>{name}</h3>
+        <h2>{title}</h2>
       </footer>
     </div>
   );
 }
+
+export default Card;
