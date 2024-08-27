@@ -5,7 +5,7 @@ import vishnu from "../Assets/studentsss/vishnu.webp";
 import aashishkanted from "../Assets/studentsss/aashishkanted.webp";
 import arjunputhli from "../Assets/studentsss/arjunputhli.webp";
 import ritwik from "../Assets/studentsss/ritwik.webp";
-import nitya from "../Assets/studentsss/nitya.webp";
+import nitya from "../Assets/studentsss/nitya.jpg";
 import arya from "../Assets/studentsss/arya.webp";
 import raghav from "../Assets/studentsss/raghav.jpg";
 import rajdeep from "../Assets/studentsss/rajdeep.webp";
