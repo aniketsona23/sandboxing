@@ -31,7 +31,7 @@ let student = [
     image: aniket,
   },
   {
-    name: "Ajikya Deshpande",
+    name: "Ajinkya Deshpande",
     email: "f20220746@goa.bits-pilani.ac.in",
     linkedIn: "https://www.linkedin.com/in/ajinkya-deshpande-6ab13b265",
     image: ajinkya,
@@ -51,7 +51,7 @@ let student = [
     image: arya,
   },
   {
-    name: "Raghav Mohak Kumar",
+    name: "Raghav Mohan Kumar",
     email: "f20220137@goa.bits-pilani.ac.in",
     linkedIn: "http://www.linkedin.com/in/raghav-mohan-kumar-427557246",
     image: raghav,
@@ -97,7 +97,8 @@ let student = [
     name: "Vishnu Vardhan Reddy Peddireddy",
     mobile: "+918790830151",
     email: "f20211199@goa.bits-pilani.ac.in",
-    linkedIn: "https://www.linkedin.com/in/",
+    linkedIn:
+      "https://www.linkedin.com/in/vishnu-vardhan-reddy-peddireddy-7b4bb2237/",
     image: vishnu,
   },
   {
@@ -115,7 +116,7 @@ let student = [
     image: arjunputhli,
   },
   {
-    name: "Ritwik",
+    name: "Ritwik Sharma",
     mobile: "+919999326476",
     email: "f20220470@goa.bits-pilani.ac.in",
     linkedIn: "https://www.linkedin.com/in/ritwik-sharma-609a38268",
