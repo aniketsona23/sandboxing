@@ -7,7 +7,6 @@ import ChevronLeftRoundedIcon from "@mui/icons-material/ChevronLeftRounded";
 
 function CardTicker() {
   const scrollCardTicker = useRef(null);
-
   const handleScrollRight = (e) => {
     if (scrollCardTicker.current) {
       scrollCardTicker.current.scrollLeft += 300;
