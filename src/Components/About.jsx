@@ -1,6 +1,7 @@
 import "../styles/about.css";
 import dPrinter from "../Assets/3dPrinter.png";
 import arduino from "../Assets/arduino.png";
+import access from "../Assets/access.png";
 
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
           </div>
         </div>
         <div className="about-card">
-          <img className="about-card-img" src="" alt="" />
+          <img className="about-card-img" src={access} alt="" />
           <div className="about-card-details">
             <h1 className="about-header">24x7 Availability</h1>
             <p>
