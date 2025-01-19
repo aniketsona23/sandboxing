@@ -136,7 +136,8 @@ let faculty = [
     image: naveen,
     name: "Prof. Naveen Gupta",
     url: "https://www.bits-pilani.ac.in/goa/naveen-gupta/",
-    email:"naveeng@goa.bits-pilani.ac.in"
+    email:"naveeng@goa.bits-pilani.ac.in",
+    linkedIn:"https://www.linkedin.com/in/naveen-gupta-635776ab/"
   },
 ];
 
